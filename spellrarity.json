@@ -280,20 +280,20 @@
 
 {
 "id" 			: "MINE",
-"spawn_level"	           : "1,3,4,6", 
-"spawn_probability"	   : "1,1,1,1"
+"spawn_level"	           : [1,3,4,6], 
+"spawn_probability"	   : [1,1,1,1]
 },
 
 {
 "id" 			: "MINE_DEATH_TRIGGER",
-"spawn_level"	           : "2,6", 
-"spawn_probability"	   : "1,1"
+"spawn_level"	           : [2,6], 
+"spawn_probability"	   : [1,1]
 },
 
 {
 "id" 			: "PIPE_BOMB",
-"spawn_level"	           : "2,3,4", 
-"spawn_probability"	   : "1,1,1"
+"spawn_level"	           : [2,3,4], 
+"spawn_probability"	   : [1,1,1]
 },
 
 {
@@ -965,7 +965,7 @@
 {
 "id"          : "SCATTER_3",
 "spawn_level"                 : [0,1,2,3], 
-"spawn_probability"                : "0.7,0.7,0.7,0.8"
+"spawn_probability"                : [0.7,0.7,0.7,0.8]
 },
 
 {
@@ -1907,15 +1907,15 @@
 
 {
 "id"          : "X_RAY",
-"spawn_level"       : "0,1,2,3,4,5,6", 
-"spawn_probability" : "0.8,1,1,0.8,0.6,0.4,0.2"
+"spawn_level"       : [0,1,2,3,4,5,6], 
+"spawn_probability" : [0.8,1,1,0.8,0.6,0.4,0.2]
 },
 	
 
 {
 "id"          : "UNSTABLE_GUNPOWDER",
 "spawn_level"                 : [2,3,4], 
-"spawn_probability"                : "0.3,0.3,0.3"
+"spawn_probability"                : [0.3,0.3,0.3]
 },
 
 {
