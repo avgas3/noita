@@ -1,0 +1,2407 @@
+
+[
+
+{
+"id"          : "BOMB",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1,1]
+},
+
+{
+"id"          : "LIGHT_BULLET",
+"spawn_level"                       : [0,1,2], 
+"spawn_probability"                 : [2,1,0.5]
+},
+
+{
+"id"          : "LIGHT_BULLET_TRIGGER",
+"spawn_level"                 : [0,1,2,3], 
+"spawn_probability"                 : [1,0.5,0.5,0.5]
+},
+
+{
+"id"          : "LIGHT_BULLET_TRIGGER_2",
+"spawn_level"                 : [2,3,5,6,10], 
+"spawn_probability"                 : [1,0.5,1,1,0.2]
+},
+
+{
+"id"          : "LIGHT_BULLET_TIMER",
+"spawn_level"                 : [1,2,3], 
+"spawn_probability"                 : [0.5,0.5,0.5]
+},
+
+{
+"id"          : "BULLET",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [1,1,1,1,1]
+},
+
+{
+"id"          : "BULLET_TRIGGER",
+"spawn_level"                 : [1,2,3,4,5], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "BULLET_TIMER",
+"spawn_level"                 : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "HEAVY_BULLET",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.5,1,1,1,1,1]
+},
+
+{
+"id"          : "HEAVY_BULLET_TRIGGER",
+"spawn_level"                 : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "HEAVY_BULLET_TIMER",
+"spawn_level"                 : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "AIR_BULLET",
+"spawn_level"                       : [1,2], 
+"spawn_probability"                 : [1,1]
+},
+
+{
+"id"          : "SLOW_BULLET",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "SLOW_BULLET_TRIGGER",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,1]
+},
+
+{
+"id"          : "SLOW_BULLET_TIMER",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,1,1]
+},
+
+{
+"id"          : "BLACK_HOLE",
+"spawn_level"                       : [0,2,4,5], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "BLACK_HOLE_DEATH_TRIGGER",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "BLACK_HOLE_BIG",
+"spawn_level"                       : [1,3,5,6,10], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.5]
+},
+
+{
+"id"          : "BLACK_HOLE_GIGA",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "TENTACLE_PORTAL",
+"spawn_level"                       : [1,2,3,4,10], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.2]
+},
+	
+
+{
+"id"          : "SPITTER",
+"spawn_level"                       : [0,1,2,3], 
+"spawn_probability"                 : [1,1,1,0.5]
+},
+
+{
+"id"          : "SPITTER_TIMER",
+"spawn_level"                       : [0,1,2,3], 
+"spawn_probability"                 : [0.5,0.5,0.5,1]
+},
+
+{
+"id"          : "SPITTER_TIER_2",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [1,1,1,0.5]
+},
+
+{
+"id"          : "SPITTER_TIER_2_TIMER",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.5,0.5,0.5,1]
+},
+
+{
+"id"          : "SPITTER_TIER_3",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,1,1]
+},
+
+{
+"id"          : "SPITTER_TIER_3_TIMER",
+"spawn_level"                       : [4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5]
+},
+
+{
+"id"          : "BUBBLESHOT",
+"spawn_level"                       : [0,1,2,3], 
+"spawn_probability"                 : [1,1,1,0.5]
+},
+
+{
+"id"          : "BUBBLESHOT_TRIGGER",
+"spawn_level"                       : [1,2,3], 
+"spawn_probability"                 : [0.5,0.5,1]
+},
+
+{
+"id"          : "DISC_BULLET",
+"spawn_level"                       : [0,2,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "DISC_BULLET_BIG",
+"spawn_level"                       : [0,2,4,10], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.1]
+},
+
+{
+"id"          : "DISC_BULLET_BIGGER",
+"spawn_level"                       : [2,3,5,10], 
+"spawn_probability"                 : [0.1,0.6,1.0,0.1]
+},
+
+{
+"id"          : "BOUNCY_ORB",
+"spawn_level"                       : [0,2,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "BOUNCY_ORB_TIMER",
+"spawn_level"                       : [0,2,4], 
+"spawn_probability"                 : [0.5,0.5,0.5]
+},
+
+{
+"id"          : "RUBBER_BALL",
+"spawn_level"                       : [0,1,6], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "ARROW",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "POLLEN",
+"spawn_level"                       : [0,1,3,4], 
+"spawn_probability"                 : [0.6,1,1,0.8]
+},
+
+{
+"id"          : "LANCE",
+"spawn_level"                       : [1,2,5,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "ROCKET",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [1,1,1,0.5,0.5]
+},
+
+{
+"id"          : "ROCKET_TIER_2",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,1,1,1,1]
+},
+
+{
+"id"          : "ROCKET_TIER_3",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.25,0.5,1,1,1]
+},
+
+{
+"id"          : "GRENADE",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [1,1,0.5,0.25,0.25]
+},
+
+{
+"id"          : "GRENADE_TRIGGER",
+"spawn_level"                 : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5,1]
+},
+
+{
+"id"          : "GRENADE_TIER_2",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.5,1,1,1,1]
+},
+
+{
+"id"          : "GRENADE_TIER_3",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.25,0.5,0.75,1,1]
+},
+
+{
+"id"          : "GRENADE_ANTI",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "GRENADE_LARGE",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id" 			: "MINE",
+"spawn_level"	           : "1,3,4,6", 
+"spawn_probability"	   : "1,1,1,1"
+},
+
+{
+"id" 			: "MINE_DEATH_TRIGGER",
+"spawn_level"	           : "2,6", 
+"spawn_probability"	   : "1,1"
+},
+
+{
+"id" 			: "PIPE_BOMB",
+"spawn_level"	           : "2,3,4", 
+"spawn_probability"	   : "1,1,1"
+},
+
+{
+"id"          : "PIPE_BOMB_DEATH_TRIGGER",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "EXPLODING_DEER",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.6]
+},
+
+{
+"id"          : "EXPLODING_DUCKS",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.6,0.8,0.6]
+},
+
+{
+"id"          : "WORM_SHOT",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.6,0.8,0.6]
+},
+	
+
+{
+"id"          : "BOMB_DETONATOR",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1]
+},
+
+{
+"id"          : "LASER",
+"spawn_level"                       : [1,2,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "MEGALASER",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.1]
+},
+
+{
+"id"          : "LIGHTNING",
+"spawn_level"                       : [1,2,5,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "BALL_LIGHTNING",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [0.2,0.2,1,1]
+},
+
+{
+"id"          : "LASER_EMITTER",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.2,1,1,0.5]
+},
+
+{
+"id"          : "LASER_EMITTER_FOUR",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.2,1,0.2,0.5,1]
+},
+
+{
+"id"          : "LASER_EMITTER_CUTTER",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [0.2,0.3,1,0.5,0.1]
+},
+
+{
+"id"          : "DIGGER",
+"spawn_level"                       : [1,2], 
+"spawn_probability"                 : [1,0.5]
+},
+
+{
+"id"          : "POWERDIGGER",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.5,1,1]
+},
+
+{
+"id"          : "CHAINSAW",
+"spawn_level"                       : [0,2], 
+"spawn_probability"                 : [1,1]
+},
+
+{
+"id"          : "LUMINOUS_DRILL",
+"spawn_level"                       : [0,2], 
+"spawn_probability"                 : [1,1]
+},
+
+{
+"id"          : "LASER_LUMINOUS_DRILL",
+"spawn_level"                       : [0,2], 
+"spawn_probability"                 : [1,1]
+},
+
+{
+"id"          : "TENTACLE",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "TENTACLE_TIMER",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6]
+},
+	
+
+{
+"id"          : "HEAL_BULLET",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "SPIRAL_SHOT",
+"spawn_level"                       : [4,5,6], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "MAGIC_SHIELD",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,1,1]
+},
+
+{
+"id"          : "BIG_MAGIC_SHIELD",
+"spawn_level"                       : [2,4,5,6,10], 
+"spawn_probability"                 : [0.2,0.2,0.5,0.5,0.1]
+},
+
+{
+"id"          : "CHAIN_BOLT",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "FIREBALL",
+"spawn_level"                       : [0,3,4,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "METEOR",
+"spawn_level"                       : [4,5,6,10], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.5]
+},
+
+{
+"id"          : "FLAMETHROWER",
+"spawn_level"                       : [2,3,6], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "ICEBALL",
+"spawn_level"                       : [2,3,4,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+	
+
+{
+"id"          : "SLIMEBALL",
+"spawn_level"                       : [0,3,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "DARKFLAME",
+"spawn_level"                       : [3,5,6], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "MISSILE",
+"spawn_level"                       : [1,2,3,5], 
+"spawn_probability"                 : [0.5,0.5,1,1]
+},
+
+{
+"id"          : "FUNKY_SPELL",
+"spawn_level"                       : [6,10], 
+"spawn_probability"                 : [0.1,0.1]
+},
+
+{
+"id"          : "PEBBLE",
+"spawn_level"                       : [1,2,4,6], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "DYNAMITE",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [1,1,1,1,1]
+},
+
+{
+"id"          : "GLITTER_BOMB",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "BUCKSHOT",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [1,1,1,1,1]
+},
+
+{
+"id"          : "FREEZING_GAZE",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "GLOWING_BOLT",
+"spawn_level"                       : [3,4,5,10], 
+"spawn_probability"                 : [1,1,1,0.1]
+},
+	
+
+{
+"id"          : "SPORE_POD",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "GLUE_SHOT",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.6,0.2,0.2,0.6]
+},
+
+{
+"id"          : "BOMB_HOLY",
+"spawn_level"                       : [2,3,4,5,6,10], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2,0.2,0.5]
+},
+
+{
+"id"          : "BOMB_HOLY_GIGA",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "PROPANE_TANK",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0,0,1,1,1,1,1]
+},
+
+{
+"id"          : "BOMB_CART",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0,0,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "CURSED_ORB",
+"spawn_level"                       : [1,2,3], 
+"spawn_probability"                 : [0.3,0.2,0.1]
+},
+
+{
+"id"          : "EXPANDING_ORB",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,1.0,1.0,1.0]
+},
+
+{
+"id"          : "CRUMBLING_EARTH",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "SUMMON_ROCK",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "SUMMON_EGG",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "SUMMON_HOLLOW_EGG",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "TNTBOX",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "TNTBOX_BIG",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "SWARM_FLY",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.5,0.5]
+},
+
+{
+"id"          : "SWARM_FIREBUG",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.5,0.5]
+},
+
+{
+"id"          : "SWARM_WASP",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.5,0.5]
+},
+
+{
+"id"          : "FRIEND_FLY",
+"spawn_level"                       : [4,5,6], 
+"spawn_probability"                 : [0.2,0.5,0.5]
+},
+	
+
+{
+"id"          : "ACIDSHOT",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "THUNDERBALL",
+"spawn_level"                       : [2,4,6,10], 
+"spawn_probability"                 : [1,1,1,0.2]
+},
+	
+
+{
+"id"          : "FIREBOMB",
+"spawn_level"                       : [1,2,3], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "SOILBALL",
+"spawn_level"                       : [1,2,3,5], 
+"spawn_probability"                 : [1,1,1,1]
+},
+	
+
+{
+"id"          : "DEATH_CROSS",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [1,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "DEATH_CROSS_BIG",
+"spawn_level"                       : [2,3,4,5,6,10], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.2]
+},
+
+{
+"id"          : "INFESTATION",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.3,0.3]
+},
+
+{
+"id"          : "WALL_HORIZONTAL",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "WALL_VERTICAL",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "WALL_SQUARE",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "TEMPORARY_WALL",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.1,0.1,0.3,0.4,0.2,0.1]
+},
+
+{
+"id"          : "TEMPORARY_PLATFORM",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.1,0.1,0.3,0.4,0.2,0.1]
+},
+
+{
+"id"          : "PURPLE_EXPLOSION_FIELD",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1]
+},
+
+{
+"id"          : "DELAYED_SPELL",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1]
+},
+
+{
+"id"          : "LONG_DISTANCE_CAST",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "TELEPORT_CAST",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "SUPER_TELEPORT_CAST",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.6,0.6,0.6]
+},
+	
+
+{
+"id"          : "MIST_RADIOACTIVE",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MIST_ALCOHOL",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MIST_SLIME",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MIST_BLOOD",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CIRCLE_FIRE",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CIRCLE_ACID",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CIRCLE_OIL",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CIRCLE_WATER",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+	
+
+{
+"id"          : "MATERIAL_WATER",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MATERIAL_OIL",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+	
+
+{
+"id"          : "MATERIAL_BLOOD",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MATERIAL_ACID",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "MATERIAL_CEMENT",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+	
+	
+
+{
+"id"          : "TELEPORT_PROJECTILE",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.4,0.4,0.4]
+},
+
+{
+"id"          : "TELEPORT_PROJECTILE_SHORT",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.4,0.4,0.4]
+},
+
+{
+"id"          : "TELEPORT_PROJECTILE_STATIC",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.4,0.4,0.4]
+},
+
+{
+"id"          : "SWAPPER_PROJECTILE",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.05,0.05,0.05,0.05,0.05,0.05]
+},
+
+{
+"id"          : "TELEPORT_PROJECTILE_CLOSER",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.4,0.4,0.4]
+},
+	
+	
+
+{
+"id"          : "NUKE",
+"spawn_level"                       : [1,5,6,10], 
+"spawn_probability"                 : [0.3,1,1,0.2]
+},
+
+{
+"id"          : "NUKE_GIGA",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+	
+	
+	
+
+{
+"id"          : "FIREWORK",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1]
+},
+
+{
+"id"          : "SUMMON_WANDGHOST",
+"spawn_level"                       : [2,4,5,6,10], 
+"spawn_probability"                 : [0.08,0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "TOUCH_GOLD",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.5]
+},
+
+{
+"id"          : "TOUCH_WATER",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "TOUCH_OIL",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "TOUCH_ALCOHOL",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "TOUCH_BLOOD",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.5]
+},
+
+{
+"id"          : "TOUCH_SMOKE",
+"spawn_level"                       : [1,2,3,4,5,6,7,10], 
+"spawn_probability"                 : [0,0,0,0,0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "DESTRUCTION",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+	
+
+{
+"id"          : "BURST_2",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "BURST_3",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.7,0.7,0.7,0.7,0.7,0.7]
+},
+
+{
+"id"          : "BURST_4",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "BURST_8",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,0.5]
+},
+
+{
+"id"          : "BURST_X",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,0.5]
+},
+
+{
+"id"          : "SCATTER_2",
+"spawn_level"                       : [0,1,2], 
+"spawn_probability"                 : [0.8,0.8,0.8]
+},
+
+{
+"id"          : "SCATTER_3",
+"spawn_level"                 : [0,1,2,3], 
+"spawn_probability"                : "0.7,0.7,0.7,0.8"
+},
+
+{
+"id"          : "SCATTER_4",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.7,0.8,0.8,0.8]
+},
+
+{
+"id"          : "I_SHAPE",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "Y_SHAPE",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [0.8,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "T_SHAPE",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "W_SHAPE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "CIRCLE_SHAPE",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.1,0.2,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "PENTAGRAM_SHAPE",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.3,0.2,0.1]
+},
+
+{
+"id"          : "SPREAD_REDUCE",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "HEAVY_SPREAD",
+"spawn_level"                       : [0,1,2,4,5,6], 
+"spawn_probability"                 : [0.8,0.8,0.8,0.8,0.8,0.8]
+},
+
+{
+"id"          : "RECHARGE",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1]
+},
+
+{
+"id"          : "LIFETIME",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.1]
+},
+
+{
+"id"          : "LIFETIME_DOWN",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.1]
+},
+
+{
+"id"          : "NOLLA",
+"spawn_level"                       : [2,4,5,6,10], 
+"spawn_probability"                 : [0.2,0.2,0.5,0.5,1]
+},
+
+{
+"id"          : "SLOW_BUT_STEADY",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.1,0.2,0.3,0.4,0.4]
+},
+
+{
+"id"          : "EXPLOSION_REMOVE",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.2,0.6,0.7,0.2]
+},
+
+{
+"id"          : "EXPLOSION_TINY",
+"spawn_level"                       : [2,4,5,6], 
+"spawn_probability"                 : [0.2,0.6,0.7,0.2]
+},
+
+{
+"id"          : "LASER_EMITTER_WIDER",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+	
+
+{
+"id"          : "MANA_REDUCE",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [1,1,1,1,1,1]
+},
+
+{
+"id"          : "BLOOD_MAGIC",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.7,0.5]
+},
+
+{
+"id"          : "MONEY_MAGIC",
+"spawn_level"                       : [3,5,6,10], 
+"spawn_probability"                 : [0.2,0.8,0.1,0.5]
+},
+
+{
+"id"          : "BLOOD_TO_POWER",
+"spawn_level"                       : [2,5,6,10], 
+"spawn_probability"                 : [0.2,0.8,0.1,0.5]
+},
+
+{
+"id"          : "DUPLICATE",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "QUANTUM_SPLIT",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,1]
+},
+
+{
+"id"          : "GRAVITY",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "GRAVITY_ANTI",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+	
+
+{
+"id"          : "SINEWAVE",
+"spawn_level"                       : [2,4,6], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "CHAOTIC_ARC",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "PINGPONG_PATH",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "AVOIDING_ARC",
+"spawn_level"                       : [2,4,6], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "FLOATING_ARC",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "FLY_DOWNWARDS",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "FLY_UPWARDS",
+"spawn_level"                       : [2,4,6], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "HORIZONTAL_ARC",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "LINE_ARC",
+"spawn_level"                       : [1,3,5], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "ORBIT_SHOT",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.2,0.3,0.4,0.1]
+},
+
+{
+"id"          : "SPIRALING_SHOT",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.2,0.3,0.4,0.1]
+},
+
+{
+"id"          : "PHASING_ARC",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.2,0.3,0.6,0.1]
+},
+
+{
+"id"          : "BOUNCE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [1,1,0.4,0.2,0.2]
+},
+
+{
+"id"          : "REMOVE_BOUNCE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,1,1,1]
+},
+
+{
+"id"          : "HOMING",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.1,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "HOMING_SHORT",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.8,1,0.4,0.1,0.1]
+},
+
+{
+"id"          : "HOMING_ROTATE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "HOMING_SHOOTER",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "AUTOAIM",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "HOMING_ACCELERATING",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.1,0.3,0.3,0.5]
+},
+
+{
+"id"          : "HOMING_CURSOR",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.7,0.7,0.4,0.4,1.0]
+},
+
+{
+"id"          : "HOMING_AREA",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.4,0.6,0.7,0.4]
+},
+	
+
+{
+"id"          : "PIERCING_SHOT",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "CLIPPING_SHOT",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "DAMAGE",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "DAMAGE_RANDOM",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.6]
+},
+
+{
+"id"          : "BLOODLUST",
+"spawn_level"                       : [1,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.3,0.6,0.6,0.3]
+},
+
+{
+"id"          : "DAMAGE_FOREVER",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.4,0.6,0.4,0.2]
+},
+
+{
+"id"          : "CRITICAL_HIT",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "AREA_DAMAGE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5]
+},
+
+{
+"id"          : "SPELLS_TO_POWER",
+"spawn_level"                       : [2,3,4,5,6,10], 
+"spawn_probability"                 : [0.5,0.5,0.5,0.5,0.5,0.1]
+},
+
+{
+"id"          : "ESSENCE_TO_POWER",
+"spawn_level"                       : [1,2,3,10], 
+"spawn_probability"                 : [0.2,0.5,0.5,0.1]
+},
+	
+
+{
+"id"          : "HEAVY_SHOT",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+
+{
+"id"          : "LIGHT_SHOT",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.4,0.4,0.4]
+},
+	
+
+{
+"id"          : "KNOCKBACK",
+"spawn_level"                       : [3,5], 
+"spawn_probability"                 : [0.6,0.6]
+},
+
+{
+"id"          : "RECOIL",
+"spawn_level"                       : [2,4], 
+"spawn_probability"                 : [0.6,0.6]
+},
+
+{
+"id"          : "RECOIL_DAMPER",
+"spawn_level"                       : [3,6], 
+"spawn_probability"                 : [0.6,0.6]
+},
+
+{
+"id"          : "SPEED",
+"spawn_level"                       : [1,2,3], 
+"spawn_probability"                 : [1,0.5,0.5]
+},
+
+{
+"id"          : "ACCELERATING_SHOT",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.5,0.5,1]
+},
+
+{
+"id"          : "DECELERATING_SHOT",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.5]
+},
+	
+
+{
+"id"          : "EXPLOSIVE_PROJECTILE",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "WATER_TO_POISON",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "BLOOD_TO_ACID",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "LAVA_TO_BLOOD",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "LIQUID_TO_EXPLOSION",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "TOXIC_TO_ACID",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "STATIC_TO_SAND",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "TRANSMUTATION",
+"spawn_level"                       : [2,3,4,5,6,10], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3,0.2]
+},
+
+{
+"id"          : "RANDOM_EXPLOSION",
+"spawn_level"                       : [3,5,6], 
+"spawn_probability"                 : [0.3,0.6,1]
+},
+
+{
+"id"          : "NECROMANCY",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "LIGHT",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [1,0.8,0.6,0.4,0.2]
+},
+
+{
+"id"          : "EXPLOSION",
+"spawn_level"                       : [0,2,4,5], 
+"spawn_probability"                 : [0.5,1,1,1]
+},
+
+{
+"id"          : "EXPLOSION_LIGHT",
+"spawn_level"                       : [2,3,5,6], 
+"spawn_probability"                 : [0.5,1,1,1]
+},
+
+{
+"id"          : "FIRE_BLAST",
+"spawn_level"                       : [0,1,3,5], 
+"spawn_probability"                 : [0.5,0.5,0.6,0.6]
+},
+
+{
+"id"          : "POISON_BLAST",
+"spawn_level"                       : [1,2,4,6], 
+"spawn_probability"                 : [0.5,0.6,0.6,0.5]
+},
+
+{
+"id"          : "ALCOHOL_BLAST",
+"spawn_level"                       : [1,2,4,6], 
+"spawn_probability"                 : [0.5,0.6,0.6,0.5]
+},
+
+{
+"id"          : "THUNDER_BLAST",
+"spawn_level"                       : [1,3,5,6,10], 
+"spawn_probability"                 : [0.5,0.6,0.6,0.5,0.1]
+},
+	
+
+{
+"id"          : "BERSERK_FIELD",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.6,0.3]
+},
+
+{
+"id"          : "POLYMORPH_FIELD",
+"spawn_level"                       : [0,1,2,3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.8,0.8,0.3,0.3]
+},
+
+{
+"id"          : "CHAOS_POLYMORPH_FIELD",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.5,0.6,0.3,0.3]
+},
+
+{
+"id"          : "ELECTROCUTION_FIELD",
+"spawn_level"                       : [1,3,5,6], 
+"spawn_probability"                 : [0.3,0.6,0.8,0.3]
+},
+
+{
+"id"          : "FREEZE_FIELD",
+"spawn_level"                       : [0,2,4,5], 
+"spawn_probability"                 : [0.3,0.6,0.7,0.3]
+},
+
+{
+"id"          : "REGENERATION_FIELD",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "TELEPORTATION_FIELD",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.3,0.6,0.3,0.3,0.6,0.3]
+},
+
+{
+"id"          : "LEVITATION_FIELD",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.3,0.6,0.6,0.3]
+},
+	
+
+{
+"id"          : "SHIELD_FIELD",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "PROJECTILE_TRANSMUTATION_FIELD",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "PROJECTILE_THUNDER_FIELD",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "PROJECTILE_GRAVITY_FIELD",
+"spawn_level"                       : [2,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "VACUUM_POWDER",
+"spawn_level"                       : [2,3,5,6], 
+"spawn_probability"                 : [0.3,1,0.3,0.3]
+},
+
+{
+"id"          : "VACUUM_LIQUID",
+"spawn_level"                       : [2,3,5,6], 
+"spawn_probability"                 : [0.3,1,0.3,0.3]
+},
+
+{
+"id"          : "VACUUM_ENTITIES",
+"spawn_level"                       : [2,3,5,6], 
+"spawn_probability"                 : [0.3,1,0.3,0.3]
+},
+
+{
+"id"          : "SEA_LAVA",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "SEA_ALCOHOL",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "SEA_OIL",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "SEA_WATER",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "SEA_ACID",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "SEA_ACID_GAS",
+"spawn_level"                       : [0,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "CLOUD_WATER",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CLOUD_OIL",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CLOUD_BLOOD",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "CLOUD_ACID",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "CLOUD_THUNDER",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "ELECTRIC_CHARGE",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "MATTER_EATER",
+"spawn_level"                       : [1,2,4,5,10], 
+"spawn_probability"                 : [0.1,1,0.1,0.1,0.2]
+},
+
+{
+"id"          : "FREEZE",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [1,1,1,1]
+},
+
+{
+"id"          : "HITFX_BURNING_CRITICAL_HIT",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_CRITICAL_WATER",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_CRITICAL_OIL",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_CRITICAL_BLOOD",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_TOXIC_CHARM",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_EXPLOSION_SLIME",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_EXPLOSION_SLIME_GIGA",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "HITFX_EXPLOSION_ALCOHOL",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "HITFX_EXPLOSION_ALCOHOL_GIGA",
+"spawn_level"                       : [1,3,4,5], 
+"spawn_probability"                 : [0.1,0.1,0.1,0.1]
+},
+
+{
+"id"          : "HITFX_PETRIFY",
+"spawn_level"                       : [2,3,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2]
+},
+	
+
+{
+"id"          : "ROCKET_DOWNWARDS",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.2,1,1,1]
+},
+
+{
+"id"          : "ROCKET_OCTAGON",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.5,0.5,0.5]
+},
+
+{
+"id"          : "FIZZLE",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "BOUNCE_EXPLOSION",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.2,0.6,0.8,0.8]
+},
+
+{
+"id"          : "BOUNCE_SPARK",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.2,0.6,0.6,0.6]
+},
+
+{
+"id"          : "BOUNCE_LASER",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.4,0.8,0.4]
+},
+
+{
+"id"          : "BOUNCE_LASER_EMITTER",
+"spawn_level"                       : [3,4,5], 
+"spawn_probability"                 : [0.4,0.8,0.4]
+},
+
+{
+"id"          : "BOUNCE_LARPA",
+"spawn_level"                       : [4,5,6], 
+"spawn_probability"                 : [0.4,0.6,0.4]
+},
+
+{
+"id"          : "FIREBALL_RAY",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.4,0.4]
+},
+
+{
+"id"          : "LIGHTNING_RAY",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0,0,0.4,0.4,0.4]
+},
+
+{
+"id"          : "TENTACLE_RAY",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0,0,0.4,0.4,0.4]
+},
+
+{
+"id"          : "LASER_EMITTER_RAY",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0,0,0.4,0.4,0.4]
+},
+
+{
+"id"          : "FIREBALL_RAY_LINE",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.6,0.4,0.4,0.4,1]
+},
+
+{
+"id"          : "FIREBALL_RAY_ENEMY",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.4,0.4]
+},
+
+{
+"id"          : "LIGHTNING_RAY_ENEMY",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0,0,0.4,0.4,0.4]
+},
+
+{
+"id"          : "TENTACLE_RAY_ENEMY",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0,0,0.4,0.4,0.4]
+},
+
+{
+"id"          : "GRAVITY_FIELD_ENEMY",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [0.6,0.6,0.4,0.4]
+},
+
+{
+"id"          : "CURSE",
+"spawn_level"                       : [2,3,5], 
+"spawn_probability"                 : [0.6,0.8,0.4]
+},
+
+{
+"id"          : "CURSE_WITHER_PROJECTILE",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [0.2,0.4,0.9,0.9]
+},
+
+{
+"id"          : "CURSE_WITHER_EXPLOSION",
+"spawn_level"                       : [2,3,4,5], 
+"spawn_probability"                 : [0.2,0.4,0.9,0.9]
+},
+
+{
+"id"          : "CURSE_WITHER_MELEE",
+"spawn_level"                       : [3,4,5,6], 
+"spawn_probability"                 : [0.2,0.4,0.9,0.9]
+},
+
+{
+"id"          : "CURSE_WITHER_ELECTRICITY",
+"spawn_level"                       : [1,4,5,6], 
+"spawn_probability"                 : [0.2,0.4,0.9,0.9]
+},
+
+{
+"id"          : "ORBIT_DISCS",
+"spawn_level"                       : [1,2,4,5], 
+"spawn_probability"                 : [0.2,0.8,0.4,0.2]
+},
+
+{
+"id"          : "ORBIT_FIREBALLS",
+"spawn_level"                       : [0,1,2,4,5], 
+"spawn_probability"                 : [0.5,0.2,0.8,0.4,0.2]
+},
+
+{
+"id"          : "ORBIT_NUKES",
+"spawn_level"                       : [2,4,5,6,10], 
+"spawn_probability"                 : [0.1,0.1,0.1,0.2,1]
+},
+
+{
+"id"          : "ORBIT_LASERS",
+"spawn_level"                       : [1,2,4,5,10], 
+"spawn_probability"                 : [0.2,0.8,0.4,0.2,0.2]
+},
+
+{
+"id"          : "ORBIT_LARPA",
+"spawn_level"                       : [3,4,6,10], 
+"spawn_probability"                 : [0.2,0.2,0.8,0.1]
+},
+
+{
+"id"          : "CHAIN_SHOT",
+"spawn_level"                       : [2,4,5], 
+"spawn_probability"                 : [0.4,0.6,0.8]
+},
+	
+	
+	
+
+{
+"id"          : "ARC_ELECTRIC",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.8]
+},
+
+{
+"id"          : "ARC_FIRE",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "ARC_GUNPOWDER",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "ARC_POISON",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+
+{
+"id"          : "CRUMBLING_EARTH_PROJECTILE",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.4,0.4,0.4,0.4,0.4]
+},
+	
+
+{
+"id"          : "X_RAY",
+"spawn_level"       : "0,1,2,3,4,5,6", 
+"spawn_probability" : "0.8,1,1,0.8,0.6,0.4,0.2"
+},
+	
+
+{
+"id"          : "UNSTABLE_GUNPOWDER",
+"spawn_level"                 : [2,3,4], 
+"spawn_probability"                : "0.3,0.3,0.3"
+},
+
+{
+"id"          : "ACID_TRAIL",
+"spawn_level"                       : [1,2,3,4,5], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "POISON_TRAIL",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "OIL_TRAIL",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "WATER_TRAIL",
+"spawn_level"                       : [1,2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3]
+},
+	
+	
+	
+	
+	
+	
+
+{
+"id"          : "GUNPOWDER_TRAIL",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "FIRE_TRAIL",
+"spawn_level"                       : [0,1,2,3,4], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "BURN_TRAIL",
+"spawn_level"                       : [0,1,2], 
+"spawn_probability"                 : [0.3,0.3,0.3]
+},
+
+{
+"id"          : "TORCH",
+"spawn_level"                       : [0,1,2], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "TORCH_ELECTRIC",
+"spawn_level"                       : [0,1,2], 
+"spawn_probability"                 : [1,1,1]
+},
+
+{
+"id"          : "ENERGY_SHIELD",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.05,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "ENERGY_SHIELD_SECTOR",
+"spawn_level"                       : [0,1,2,3,4,5], 
+"spawn_probability"                 : [0.05,0.6,0.6,0.6,0.6,0.6]
+},
+
+{
+"id"          : "ENERGY_SHIELD_SHOT",
+"spawn_level"                       : [2,3,4,5,6], 
+"spawn_probability"                 : [0.3,0.3,0.3,0.3,0.3]
+},
+
+{
+"id"          : "TINY_GHOST",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.1,0.5,1,1,1,1]
+},
+	
+
+	
+	
+	
+		
+
+{
+"id"          : "OCARINA_A",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_B",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_C",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_D",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_E",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_F",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_GSHARP",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "OCARINA_A2",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "KANTELE_A",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "KANTELE_D",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "KANTELE_DIS",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "KANTELE_E",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "KANTELE_G",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "RANDOM_SPELL",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.2,0.3,0.1,0.1,0.5]
+},
+
+{
+"id"          : "RANDOM_PROJECTILE",
+"spawn_level"                       : [2,4,5,6,10], 
+"spawn_probability"                 : [0.2,0.4,0.1,0.1,0.5]
+},
+
+{
+"id"          : "RANDOM_MODIFIER",
+"spawn_level"                       : [4,5,6,10], 
+"spawn_probability"                 : [0.3,0.1,0.1,0.5]
+},
+
+{
+"id"          : "RANDOM_STATIC_PROJECTILE",
+"spawn_level"                       : [3,5,6,10], 
+"spawn_probability"                 : [0.2,0.1,0.1,0.5]
+},
+
+{
+"id"          : "DRAW_RANDOM",
+"spawn_level"                       : [2,3,4,5,6,10], 
+"spawn_probability"                 : [0.3,0.2,0.2,0.1,0.1,1]
+},
+
+{
+"id"          : "DRAW_RANDOM_X3",
+"spawn_level"                       : [3,4,5,6,10], 
+"spawn_probability"                 : [0.1,0.3,0.1,0.1,1]
+},
+
+{
+"id"          : "DRAW_3_RANDOM",
+"spawn_level"                       : [2,3,5,6,10], 
+"spawn_probability"                 : [0.1,0.2,0.1,0.1,1]
+},
+
+{
+"id"          : "ALL_NUKES",
+"spawn_level"                       : [6,10], 
+"spawn_probability"                 : [0.1,1]
+},
+
+{
+"id"          : "ALL_DISCS",
+"spawn_level"                       : [0,6,10], 
+"spawn_probability"                 : [0.1,0.05,1]
+},
+
+{
+"id"          : "ALL_ROCKETS",
+"spawn_level"                       : [1,6,10], 
+"spawn_probability"                 : [0.1,0.05,1]
+},
+
+{
+"id"          : "ALL_DEATHCROSSES",
+"spawn_level"                       : [2,6,10], 
+"spawn_probability"                 : [0.1,0.05,1]
+},
+
+{
+"id"          : "ALL_BLACKHOLES",
+"spawn_level"                       : [3,6,10], 
+"spawn_probability"                 : [0.1,0.05,1]
+},
+
+{
+"id"          : "ALL_ACID",
+"spawn_level"                       : [4,6,10], 
+"spawn_probability"                 : [0.1,0.05,1]
+},
+
+{
+"id"          : "ALL_SPELLS",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "SUMMON_PORTAL",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+},
+
+{
+"id"          : "ADD_TRIGGER",
+"spawn_level"                       : [3,4,5,10], 
+"spawn_probability"                 : [0.3,0.6,0.6,1]
+},
+
+{
+"id"          : "ADD_TIMER",
+"spawn_level"                       : [3,4,5,10], 
+"spawn_probability"                 : [0.3,0.6,0.6,1]
+},
+
+{
+"id"          : "ADD_DEATH_TRIGGER",
+"spawn_level"                       : [3,4,5,10], 
+"spawn_probability"                 : [0.3,0.6,0.6,1]
+},
+
+{
+"id"          : "LARPA_CHAOS",
+"spawn_level"                       : [2,3,4,5,10], 
+"spawn_probability"                 : [0.1,0.2,0.3,0.4,0.2]
+},
+
+{
+"id"          : "LARPA_DOWNWARDS",
+"spawn_level"                       : [2,3,4,5,10], 
+"spawn_probability"                 : [0.1,0.3,0.2,0.2,0.2]
+},
+
+{
+"id"          : "LARPA_UPWARDS",
+"spawn_level"                       : [2,3,4,5,10], 
+"spawn_probability"                 : [0.1,0.1,0.2,0.4,0.2]
+},
+
+{
+"id"          : "LARPA_CHAOS_2",
+"spawn_level"                       : [3,5,10], 
+"spawn_probability"                 : [0.1,0.4,0.1]
+},
+
+{
+"id"          : "LARPA_DEATH",
+"spawn_level"                       : [2,3,4,5,10], 
+"spawn_probability"                 : [0.1,0.1,0.3,0.2,0.2]
+},
+
+{
+"id"          : "ALPHA",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "GAMMA",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "TAU",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "OMEGA",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "MU",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "PHI",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "SIGMA",
+"spawn_level"                       : [4,5,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "ZETA",
+"spawn_level"                       : [1,2,3,10], 
+"spawn_probability"                 : [0.2,0.8,0.6,0.1]
+},
+
+{
+"id"          : "DIVIDE_2",
+"spawn_level"                       : [3,5,6,10], 
+"spawn_probability"                 : [0.2,0.3,0.2,1]
+},
+
+{
+"id"          : "DIVIDE_3",
+"spawn_level"                       : [4,5,6,10], 
+"spawn_probability"                 : [0.1,0.1,0.2,1]
+},
+
+{
+"id"          : "DIVIDE_4",
+"spawn_level"                       : [5,6,10], 
+"spawn_probability"                 : [0.1,0.1,1]
+},
+
+{
+"id"          : "DIVIDE_10",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "METEOR_RAIN",
+"spawn_level"                       : [6,10], 
+"spawn_probability"                 : [0.1,1]
+},
+
+{
+"id"          : "WORM_RAIN",
+"spawn_level"                       : [6,10], 
+"spawn_probability"                 : [0.1,1]
+},
+
+{
+"id"          : "RESET",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_ENEMY",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_PROJECTILE",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_HP",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_HALF",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_END",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "IF_ELSE",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [1]
+},
+
+{
+"id"          : "COLOUR_RED",
+"spawn_level"                       : [1,2,3,4,5,6], 
+"spawn_probability"                 : [0.2,0.2,0.2,0.2,0.2,0.2]
+},
+
+{
+"id"          : "COLOUR_ORANGE",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_GREEN",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_YELLOW",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_PURPLE",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_BLUE",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_RAINBOW",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "COLOUR_INVIS",
+"spawn_level"                       : [2,3,4], 
+"spawn_probability"                 : [0.1,0.1,0.1]
+},
+
+{
+"id"          : "RAINBOW_TRAIL",
+"spawn_level"                       : [10], 
+"spawn_probability"                 : [0]
+}
+]
+
